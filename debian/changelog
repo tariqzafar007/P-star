@@ -1,4 +1,4 @@
-pstar (1.1-alpha8) unstable; urgency=low
+pstar (1.1-alpha8) saucy; urgency=low
 
   * Added new regular expression features
     - Perl-like text replacement using s///-prefix
