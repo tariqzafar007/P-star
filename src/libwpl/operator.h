@@ -53,6 +53,8 @@ struct wpl_operator_struct {
 #define WPL_OP_F_OPTIONAL_LHS	(1<<4)
 #define WPL_OP_F_OPTIONAL_RHS	(1<<5)
 
+#define WPL_OP_F_MODIFIES	(1<<6)
+
 #define WPL_OP_F_ASSOC_ALL	(WPL_OP_F_ASSOC_LEFT|WPL_OP_F_ASSOC_RIGHT)
 
 #define WPL_OP_F_HAS_BOTH	(WPL_OP_F_HAS_LHS|WPL_OP_F_HAS_RHS)
